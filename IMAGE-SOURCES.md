@@ -28,6 +28,16 @@ The selected set uses cinematic blues and teals, warm sunset light, earthy neutr
 | `assets/images/wellness-yoga.jpg` | Tomi Saputra — [Beach yoga at sunset](https://unsplash.com/photos/people-practicing-yoga-on-a-beach-at-sunset-ilv0SbJUVa0) | Wellness editorial image | Calm spacing, soft light, and movement in nature support the restorative narrative. Figures remain along the lower third. | Photo by Tomi Saputra on Unsplash. No attribution required. |
 | `assets/images/wellness-retreat.jpg` | Deepavali Gaind — [Resort within a lush forest](https://unsplash.com/photos/luxurious-resort-nestled-within-a-lush-green-forest-O3sGwhqwwHc) | Wellness experience hero | The secluded resort framed by forest communicates privacy and healing through place. Crops keep the building nested in the canopy. | Photo by Deepavali Gaind on Unsplash. No attribution required. |
 
+## Aoria brand assets
+
+The following official Aoria artwork was supplied directly for the website and is stored unchanged:
+
+| Local file | Use |
+|---|---|
+| `assets/brand/AORIA_icon.png` | Browser favicon across every page. |
+| `assets/brand/AORIA_logo.png` | Primary wordmark in the global header. |
+| `assets/brand/AORIA_logo_tagline.png` | “Aoria — The Art of Travel” lockup in the global footer. |
+
 ## Implementation notes
 
 - Every file is stored locally; the HTML does not depend on temporary search-result or hotlink URLs.

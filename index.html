@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Aoria creates thoughtful, highly personalised luxury journeys shaped around you.">
   <title>Aoria — Bespoke Luxury Travel</title>
+  <link rel="icon" type="image/png" href="assets/brand/AORIA_icon.png">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
@@ -12,7 +13,7 @@
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <div class="site-header__inner">
-      <a class="site-wordmark" href="index.html" aria-label="Aoria home">AORIA</a>
+      <a class="site-wordmark" href="index.html" aria-label="Aoria home"><img class="site-logo" src="assets/brand/AORIA_logo.png" alt="" width="3334" height="889"></a>
       <nav class="desktop-nav" aria-label="Primary navigation">
         <a href="destinations.html">Destinations</a>
         <a href="experiences.html">Experiences</a>
@@ -68,7 +69,7 @@
           <a class="destination-card" href="destination-scandinavia.html" data-reveal>
             <img src="assets/images/scandinavia-fjord.jpg" alt="A quiet Norwegian fjord surrounded by steep green mountains">
             <div class="destination-card__copy">
-              <span class="destination-card__number">01 · Northern Europe</span>
+              <span class="destination-card__region">Northern Europe</span>
               <h3>Scandinavia</h3>
               <p>A land of quiet beauty, where dramatic fjords, elegant cities and endless skies create journeys that feel both inspiring and restorative.</p>
               <span class="destination-card__link">Discover Scandinavia</span>
@@ -77,7 +78,7 @@
           <a class="destination-card" href="destination-south-east-asia.html" data-reveal>
             <img src="assets/images/southeast-asia-temple.jpg" alt="Angkor Wat rising above still water in Cambodia" loading="lazy">
             <div class="destination-card__copy">
-              <span class="destination-card__number">02 · Asia</span>
+              <span class="destination-card__region">Asia</span>
               <h3>South East Asia</h3>
               <p>A vibrant world of colour, flavour and contrast, where every journey brings new sensations, stories and discoveries.</p>
               <span class="destination-card__link">Discover South East Asia</span>
@@ -86,7 +87,7 @@
           <a class="destination-card" href="destination-new-zealand.html" data-reveal>
             <img src="assets/images/new-zealand-lake.jpg" alt="Snow-capped mountains reflected in a still New Zealand lake" loading="lazy">
             <div class="destination-card__copy">
-              <span class="destination-card__number">03 · Oceania</span>
+              <span class="destination-card__region">Oceania</span>
               <h3>New Zealand</h3>
               <p>A place of extraordinary natural beauty, where mountains, glaciers and wild coastlines make every moment feel unforgettable.</p>
               <span class="destination-card__link">Discover New Zealand</span>
@@ -95,7 +96,7 @@
           <a class="destination-card" href="destination-african-wildlife.html" data-reveal>
             <img src="assets/images/african-elephant.jpg" alt="An elephant walking across open grassland in South Africa" loading="lazy">
             <div class="destination-card__copy">
-              <span class="destination-card__number">04 · Africa</span>
+              <span class="destination-card__region">Africa</span>
               <h3>African Wildlife</h3>
               <p>There is nothing quite like seeing wildlife in its natural world - raw, moving and impossible to forget.</p>
               <span class="destination-card__link">Discover African Wildlife</span>
@@ -118,12 +119,12 @@
           </div>
         </div>
         <div class="experience-strip">
-          <a class="experience-tile" href="experience-safari.html" data-reveal><span>01</span><h3>Closer to the wild</h3><p>Private wildlife journeys shaped by exceptional guiding, remote landscapes and unforgettable encounters.</p></a>
-          <a class="experience-tile" href="experience-islands.html" data-reveal><span>02</span><h3>Where the world feels far away</h3><p>Secluded shores, private villas and days that unfold entirely at your own pace.</p></a>
-          <a class="experience-tile" href="experience-gastronomy.html" data-reveal><span>03</span><h3>Discover a place through its table</h3><p>Journeys shaped by memorable tables, local flavours and the people behind them.</p></a>
-          <a class="experience-tile" href="experience-culture.html" data-reveal><span>04</span><h3>Go beyond what can be seen</h3><p>Private access, local insight and a more meaningful way to understand a place.</p></a>
-          <a class="experience-tile" href="experience-adventure.html" data-reveal><span>05</span><h3>Go where the journey feels alive</h3><p>Remarkable landscapes, private access and experiences that take you beyond the familiar.</p></a>
-          <a class="experience-tile" href="experience-wellness.html" data-reveal><span>06</span><h3>Time to return to yourself</h3><p>Restorative escapes created around space, nature and the way you want to feel.</p></a>
+          <a class="experience-tile" href="experience-safari.html" data-reveal><h3>Closer to the wild</h3><p>Private wildlife journeys shaped by exceptional guiding, remote landscapes and unforgettable encounters.</p></a>
+          <a class="experience-tile" href="experience-islands.html" data-reveal><h3>Where the world feels far away</h3><p>Secluded shores, private villas and days that unfold entirely at your own pace.</p></a>
+          <a class="experience-tile" href="experience-gastronomy.html" data-reveal><h3>Discover a place through its table</h3><p>Journeys shaped by memorable tables, local flavours and the people behind them.</p></a>
+          <a class="experience-tile" href="experience-culture.html" data-reveal><h3>Go beyond what can be seen</h3><p>Private access, local insight and a more meaningful way to understand a place.</p></a>
+          <a class="experience-tile" href="experience-adventure.html" data-reveal><h3>Go where the journey feels alive</h3><p>Remarkable landscapes, private access and experiences that take you beyond the familiar.</p></a>
+          <a class="experience-tile" href="experience-wellness.html" data-reveal><h3>Time to return to yourself</h3><p>Restorative escapes created around space, nature and the way you want to feel.</p></a>
         </div>
       </div>
     </section>
@@ -137,13 +138,13 @@
           </div>
           <p>One journey, shaped around your interests, pace and priorities, with thoughtful support from the first idea to your return home.</p>
         </div>
-        <ol class="services-list">
+        <ul class="services-list">
           <li data-reveal><h3>Bespoke Planning</h3><p>Every journey begins with understanding how you want to travel. We create a completely tailored itinerary around your interests, pace and priorities, with no templates or off-the-shelf plans.</p></li>
           <li data-reveal><h3>Hotels &amp; Villas</h3><p>From iconic hotels to private villas and remote lodges, we select places for their setting, service and character—right down to the room, suite or view that suits you best.</p></li>
           <li data-reveal><h3>Flights &amp; Transfers</h3><p>We coordinate the journey from door to door, including flights, private aviation, chauffeurs, boats and every connection in between.</p></li>
           <li data-reveal><h3>Private Experiences</h3><p>We arrange the moments that make a trip memorable: expert guides, private access, remarkable tables and experiences that reveal a destination in a more personal way.</p></li>
           <li data-reveal><h3>Travel Support</h3><p>Before you leave and throughout your time away, we remain close at hand. Should plans change or something new arise, you will always have someone to turn to.</p></li>
-        </ol>
+        </ul>
         <p style="margin:2rem 0 0"><a class="button button--outline" href="about.html">Discover how we work</a></p>
       </div>
     </section>
@@ -161,7 +162,7 @@
   <footer class="site-footer">
     <div class="container site-footer__top">
       <div class="site-footer__brand">
-        <p class="footer-wordmark">AORIA</p>
+        <img class="footer-brand-logo" src="assets/brand/AORIA_logo_tagline.png" alt="Aoria — The Art of Travel" width="3334" height="1285" loading="lazy">
         <p class="footer-statement">Thoughtful, highly personalised journeys for people who value their time and want to experience the world exceptionally well.</p>
       </div>
       <div>

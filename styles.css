@@ -206,9 +206,7 @@ p {
 
 .display-title,
 .section-title,
-.card-title,
-.site-wordmark,
-.footer-wordmark {
+.card-title {
   font-family: var(--font-display);
   font-weight: 400;
 }
@@ -368,11 +366,17 @@ p {
 }
 
 .site-wordmark {
-  width: fit-content;
-  font-size: 1.8rem;
-  line-height: 1;
-  letter-spacing: 0.09em;
+  display: inline-flex;
+  width: 7.75rem;
+  min-height: 2.75rem;
+  align-items: center;
   text-decoration: none;
+}
+
+.site-logo {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .desktop-nav {
@@ -597,7 +601,7 @@ p {
   padding: clamp(1.5rem, 4vw, 3rem);
 }
 
-.destination-card__number {
+.destination-card__region {
   display: block;
   margin-bottom: 0.75rem;
   font-size: 0.7rem;
@@ -662,14 +666,8 @@ p {
   transition: color 400ms, background-color 400ms;
 }
 
-.experience-tile span {
-  font-size: 0.7rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
 .experience-tile h3 {
-  margin: 3.6rem 0 0.6rem;
+  margin: 1.5rem 0 0.6rem;
   font-family: var(--font-display);
   font-size: clamp(2rem, 3vw, 2.65rem);
   font-weight: 400;
@@ -694,7 +692,6 @@ p {
   list-style: none;
   margin: 0;
   padding: 0;
-  counter-reset: services;
 }
 
 .services-list li {
@@ -703,7 +700,6 @@ p {
   gap: var(--space-7);
   padding-block: 2rem;
   border-top: 1px solid rgb(0 0 0 / 24%);
-  counter-increment: services;
 }
 
 .services-list li:last-child {
@@ -715,16 +711,6 @@ p {
   font-family: var(--font-display);
   font-size: 1.75rem;
   font-weight: 400;
-}
-
-.services-list h3::before {
-  display: block;
-  margin-bottom: 0.75rem;
-  content: "0" counter(services);
-  font-family: var(--font-sans);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
 }
 
 .services-list p {
@@ -840,13 +826,6 @@ p {
   border-bottom: 1px solid var(--ink);
   text-decoration: none;
   transition: color 400ms, background-color 400ms;
-}
-
-.experience-card__number {
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
 }
 
 .experience-card h2 {
@@ -1013,14 +992,6 @@ p {
   padding: 2rem;
   border-right: 1px solid var(--ink);
   border-bottom: 1px solid var(--ink);
-}
-
-.signature-card span {
-  display: block;
-  margin-bottom: 2.7rem;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
 }
 
 .signature-card h3 {
@@ -1290,11 +1261,12 @@ textarea.control {
   padding-block: clamp(4rem, 8vw, 7rem);
 }
 
-.footer-wordmark {
-  margin-bottom: 1.5rem;
-  font-size: clamp(3.5rem, 7vw, 6.5rem);
-  line-height: 0.9;
-  letter-spacing: 0.06em;
+.footer-brand-logo {
+  display: block;
+  width: min(100%, 21rem);
+  height: auto;
+  margin-bottom: 1.75rem;
+  filter: invert(1);
 }
 
 .footer-statement {
@@ -1548,7 +1520,7 @@ textarea.control {
   }
 
   .site-wordmark {
-    font-size: 1.5rem;
+    width: 6.75rem;
   }
 
   .home-hero {
@@ -1596,7 +1568,7 @@ textarea.control {
   }
 
   .experience-tile h3 {
-    margin-top: 2.5rem;
+    margin-top: 1.25rem;
   }
 
   .services-list li,
