@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Plan your bespoke luxury journey with Aoria.">
+  <title>Plan Your Trip — Aoria</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-wordmark" href="index.html" aria-label="Aoria home">AORIA</a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="destinations.html">Destinations</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <div class="site-actions">
+        <a class="button button--navy" href="contact.html">Plan your trip</a>
+        <div class="language-wrap">
+          <button class="language-button" type="button" aria-expanded="false" aria-controls="language-note" data-language-toggle>EN</button>
+          <p class="language-note" id="language-note" hidden>English is the only language represented in this static mockup.</p>
+        </div>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation" data-menu-toggle><span></span></button>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" id="mobile-menu" aria-hidden="true" data-mobile-menu>
+    <nav aria-label="Mobile navigation">
+      <a href="destinations.html">Destinations</a>
+      <a href="experiences.html">Experiences</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <a class="button button--navy mobile-menu__action" href="contact.html">Plan your trip</a>
+  </aside>
+
+  <main id="main-content">
+    <section class="section section--ivory" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div class="contact-intro" data-reveal>
+          <p class="eyebrow">Contact</p>
+          <h1 id="contact-title">Plan Your Trip</h1>
+          <p class="lead">Take the first step in creating your bespoke itinerary with us. Please complete this form, sharing as much information as possible, and we will be in touch to start planning your perfect vacation.</p>
+        </div>
+
+        <form class="contact-form" data-mock-form>
+          <div class="form-row">
+            <div class="field">
+              <label for="first-name">First name</label>
+              <input class="control" id="first-name" name="first-name" type="text" autocomplete="given-name" required>
+            </div>
+            <div class="field">
+              <label for="last-name">Last name</label>
+              <input class="control" id="last-name" name="last-name" type="text" autocomplete="family-name" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="email-address">Email address</label>
+              <input class="control" id="email-address" name="email-address" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="phone-number">Phone number</label>
+              <input class="control" id="phone-number" name="phone-number" type="tel" autocomplete="tel">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="start-date">Start date</label>
+              <input class="control" id="start-date" name="start-date" type="date" data-start-date required>
+            </div>
+            <div class="field">
+              <label for="end-date">End date</label>
+              <input class="control" id="end-date" name="end-date" type="date" data-end-date required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="people">How many people</label>
+            <input class="control" id="people" name="people" type="number" min="1" step="1" inputmode="numeric" required>
+          </div>
+
+          <div class="field">
+            <label for="dream-trip">Tell us about your dream trip</label>
+            <textarea class="control" id="dream-trip" name="dream-trip" required></textarea>
+          </div>
+
+          <button class="button button--navy" type="submit">Plan your trip</button>
+          <p class="form-status" role="status" aria-live="polite" tabindex="-1" data-form-status></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Travel inspiration">
+      <div class="container contact-visual" data-reveal>
+        <img src="assets/images/home-hero.jpg" alt="Rows of overwater bungalows beside a boardwalk in clear turquoise water" loading="lazy">
+        <div class="contact-visual__note">
+          <p>From inspired dream to cherished memory, Aoria is with you every step of your journey.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__top">
+      <div class="site-footer__brand">
+        <p class="footer-wordmark">AORIA</p>
+        <p class="footer-statement">Thoughtful, highly personalised journeys for people who value their time and want to experience the world exceptionally well.</p>
+      </div>
+      <div>
+        <h2 class="footer-heading">Explore</h2>
+        <ul class="footer-list">
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="experiences.html">Experiences</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" data-mock-link data-mock-message="FAQ copy was not supplied in the brief. This placeholder does not open a separate FAQ page; please use Contact for assistance.">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-heading">Contact</h2>
+        <ul class="footer-list">
+          <li><a href="mailto:hello@aoria.example">hello@aoria.example</a></li>
+          <li><a href="tel:+40000000000">+40 (0) 000 000 000</a></li>
+          <li>Bucharest, Romania · By appointment</li>
+        </ul>
+        <small class="footer-mock-label">Illustrative contact details for this static mockup.</small>
+      </div>
+    </div>
+    <div class="container site-footer__bottom">
+      <span>© <span data-year>2026</span> Aoria. All rights reserved.</span>
+      <span>Bespoke travel, thoughtfully considered.</span>
+    </div>
+  </footer>
+  <div class="mock-toast" role="status" aria-live="polite" data-mock-toast hidden></div>
+</body>
+</html>

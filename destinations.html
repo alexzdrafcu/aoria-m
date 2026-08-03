@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Aoria's handpicked destinations, from Scandinavia and South East Asia to New Zealand and Africa.">
+  <title>Our Destinations — Aoria</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-wordmark" href="index.html" aria-label="Aoria home">AORIA</a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="destinations.html" aria-current="page">Destinations</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="site-actions">
+        <a class="button button--navy" href="contact.html">Plan your trip</a>
+        <div class="language-wrap">
+          <button class="language-button" type="button" aria-expanded="false" aria-controls="language-note" data-language-toggle>EN</button>
+          <p class="language-note" id="language-note" hidden>English is the only language represented in this static mockup.</p>
+        </div>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation" data-menu-toggle><span></span></button>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" id="mobile-menu" aria-hidden="true" data-mobile-menu>
+    <nav aria-label="Mobile navigation">
+      <a href="destinations.html" aria-current="page">Destinations</a>
+      <a href="experiences.html">Experiences</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="button button--navy mobile-menu__action" href="contact.html">Plan your trip</a>
+  </aside>
+
+  <main id="main-content">
+    <section class="page-hero" aria-labelledby="destinations-title">
+      <div class="container page-hero__inner" data-reveal>
+        <h1 class="display-title" id="destinations-title">Our destinations</h1>
+        <p class="lead">Where will your next journey take you?</p>
+        <p class="lead">From remote landscapes and vibrant cities to quiet islands far from the everyday, discover destinations chosen for their beauty, character and sense of possibility. Wherever you are drawn, we will create a journey that feels entirely your own.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Destination collection">
+      <div class="container listing-stack">
+        <article class="listing-entry" data-reveal>
+          <div class="listing-entry__media listing-entry__media--arch">
+            <img src="assets/images/scandinavia-fjord.jpg" alt="A serene Scandinavian fjord beneath steep green mountains" loading="lazy">
+          </div>
+          <div class="listing-entry__copy">
+            <h2>Scandinavia</h2>
+            <p class="listing-entry__headline">Where wild landscapes meet quiet sophistication</p>
+            <p>There is something wonderfully calming about Scandinavia. The air feels clearer, the light softer and the landscapes almost too beautiful to be real. Between remote fjords, colourful harbour towns and effortlessly elegant cities, every journey here feels both restorative and full of discovery.</p>
+            <a class="button button--outline" href="destination-scandinavia.html">Discover Scandinavia</a>
+          </div>
+        </article>
+
+        <article class="listing-entry" data-reveal>
+          <div class="listing-entry__media">
+            <img src="assets/images/southeast-asia-temple.jpg" alt="An ancient South East Asian temple reflected in calm water" loading="lazy">
+          </div>
+          <div class="listing-entry__copy">
+            <h2>South East Asia</h2>
+            <p class="listing-entry__headline">A world that awakens every sense</p>
+            <p>South East Asia stays with you in fragments: the scent of lemongrass in a market, temple bells at dawn, lanterns glowing beside a river and the warmth of the sea at the end of the day. Every place has its own rhythm, yet the region shares an energy that makes you want to see, taste and experience more.</p>
+            <a class="button button--outline" href="destination-south-east-asia.html">Discover South East Asia</a>
+          </div>
+        </article>
+
+        <article class="listing-entry" data-reveal>
+          <div class="listing-entry__media listing-entry__media--arch">
+            <img src="assets/images/new-zealand-lake.jpg" alt="A clear New Zealand lake framed by snow-capped mountains" loading="lazy">
+          </div>
+          <div class="listing-entry__copy">
+            <h2>New Zealand</h2>
+            <p class="listing-entry__headline">Nature, on an extraordinary scale</p>
+            <p>New Zealand has a way of making you feel small in the best possible sense. Mountains rise straight from the water, glaciers stretch towards rainforest and empty roads lead to places that seem untouched. It is a country made for looking up, breathing deeply and staying a little longer than planned.</p>
+            <a class="button button--outline" href="destination-new-zealand.html">Discover New Zealand</a>
+          </div>
+        </article>
+
+        <article class="listing-entry" data-reveal>
+          <div class="listing-entry__media">
+            <img src="assets/images/african-elephant.jpg" alt="A solitary elephant walking across African grassland" loading="lazy">
+          </div>
+          <div class="listing-entry__copy">
+            <h2>African Wildlife</h2>
+            <p class="listing-entry__headline">See the natural world at its most extraordinary</p>
+            <p>There are moments in the wild that cannot be rehearsed: an elephant appearing silently at the water’s edge, a lion calling across the plains or the first glimpse of a gorilla through the forest. You wait, you watch, and for a little while, the rest of the world falls away.</p>
+            <a class="button button--outline" href="destination-african-wildlife.html">Discover African Wildlife</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__top">
+      <div class="site-footer__brand">
+        <p class="footer-wordmark">AORIA</p>
+        <p class="footer-statement">Thoughtful, highly personalised journeys for people who value their time and want to experience the world exceptionally well.</p>
+      </div>
+      <div>
+        <h2 class="footer-heading">Explore</h2>
+        <ul class="footer-list">
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="experiences.html">Experiences</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" data-mock-link data-mock-message="FAQ copy was not supplied in the brief. This placeholder does not open a separate FAQ page; please use Contact for assistance.">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-heading">Contact</h2>
+        <ul class="footer-list">
+          <li><a href="mailto:hello@aoria.example">hello@aoria.example</a></li>
+          <li><a href="tel:+40000000000">+40 (0) 000 000 000</a></li>
+          <li>Bucharest, Romania · By appointment</li>
+        </ul>
+        <small class="footer-mock-label">Illustrative contact details for this static mockup.</small>
+      </div>
+    </div>
+    <div class="container site-footer__bottom">
+      <span>© <span data-year>2026</span> Aoria. All rights reserved.</span>
+      <span>Bespoke travel, thoughtfully considered.</span>
+    </div>
+  </footer>
+  <div class="mock-toast" role="status" aria-live="polite" data-mock-toast hidden></div>
+</body>
+</html>
