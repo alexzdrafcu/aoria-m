@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+
 :root {
   --ink: #000000;
   --navy: #003b5c;
@@ -15,8 +17,8 @@
   --focus-blue: #4d65ff;
   --error: #a52722;
   --success: #246b3d;
-  --font-display: "Iowan Old Style", Baskerville, "Times New Roman", serif;
-  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;
@@ -532,6 +534,14 @@ p {
   max-width: 52rem;
 }
 
+.home-hero__copy .display-title {
+  font-style: normal;
+}
+
+.home-hero__copy .display-title em {
+  font-style: italic;
+}
+
 .home-hero__copy .lead {
   max-width: 38rem;
   margin-bottom: 2rem;
@@ -775,7 +785,7 @@ p {
 }
 
 .listing-entry__media--arch {
-  border-radius: 22rem 22rem 0.4rem 0.4rem;
+  border-radius: 0;
 }
 
 .listing-entry__media img {
@@ -1088,7 +1098,7 @@ p {
   min-height: 42rem;
   margin: 0;
   overflow: hidden;
-  border-radius: 20rem 20rem 0.4rem 0.4rem;
+  border-radius: 0;
 }
 
 .split-story__media img {
